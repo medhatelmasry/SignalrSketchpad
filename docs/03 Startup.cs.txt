@@ -1,0 +1,7 @@
+====================== ConfigureServices() ======================
+
+services.AddSignalR();
+
+====================== Configure() inside app.UseEndpoints() ======================
+
+endpoints.MapHub<DrawDotHub>("/drawDotHub");
